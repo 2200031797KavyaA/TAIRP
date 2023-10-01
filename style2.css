@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.recipe {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+ul, ol {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+li {
+    margin-bottom: 5px;
+}
