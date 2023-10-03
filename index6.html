@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Gallery</h1>
+        <div class="filter-buttons">
+            <button class="filter-button" data-filter="all">All</button>
+            <button class="filter-button" data-filter="nature">Nature</button>
+            <button class="filter-button" data-filter="animals">Animals</button>
+            <button class="filter-button" data-filter="cityscapes">Cityscapes</button>
+        </div>
+        <div class="image-gallery">
+            <div class="image nature" data-tags="nature">
+                <img src="nature1.jpg" alt="Nature Image 1">
+            </div>
+            <div class="image animals" data-tags="animals">
+                <img src="animals1.jpg" alt="Animal Image 1">
+            </div>
+            <div class="image cityscapes" data-tags="cityscapes">
+                <img src="cityscape1.jpg" alt="Cityscape Image 1">
+            </div>
+            <!-- Add more images with appropriate categories and tags -->
+        </div>
+    </div>
+    <script src="script6.js"></script>
+</body>
+</html>
