@@ -1,0 +1,8 @@
+<div id="movie-results">
+    <h2>Search Results</h2>
+    <ul>
+        {% for movie in results %}
+        <li>{{ movie.title }} (Genre: {{ movie.genre }})</li>
+        {% endfor %}
+    </ul>
+</div>
